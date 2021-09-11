@@ -6,7 +6,7 @@ export default class pdfWorker extends React.Component {
     render (){
         return (
             <div>
-                <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.6.347/build/pdf.worker.min.js">
+                <Worker workerUrl="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.6.347/pdf.worker.min.js">
                     <PdfViewer pdfDir={this.props.pdfDir}/>
                 </Worker>
             </div>
