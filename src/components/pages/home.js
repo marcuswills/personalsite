@@ -1,7 +1,7 @@
 import React from 'react';
 import * as Constants  from '../constants'
 
-import altPhoto from '../images/alternateHomePhoto.JPG'
+import altPhoto from '../images/alternateHomePhoto.png'
 
 const home = () => {
   return (
