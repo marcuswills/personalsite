@@ -1,0 +1,34 @@
+{
+	"generalBooks" : [
+		{"title" : "The Foundation Series", "author" : "Asimov, Isaac"},
+		{"title" : "World War Z", "author" : "Brooks, Max"},
+		{"title" : "How to Own Your Own Mind", "author" : "Hill, Napoleon"},
+		{"title" : "Napoleon Hill’s Golden Rules", "author" : "Hill, Napoleon"},
+		{"title" : "Flowers for Algernon", "author" : "Keyes, David"},
+		{"title" : "On Writing", "author" : "King, Stephen"},
+		{"title" : "The War of Art", "author" : "Pressfield, Steven"},
+		{"title" : "Blood Meridian", "author" : "McCarthy, Cormac"},
+		{"title" : "No Country for Old Men", "author" : "McCarthy, Cormac"},
+		{"title" : "The Road", "author" : "McCarthy, Cormac"},
+		{"title" : "Animal Farm", "author" : "Orwell, George"},
+		{"title" : "Pryor Convictions", "author" : "Pryor, Richard"},
+		{"title" : "The Curse of Lano", "author" : "Thompson, Hunter S."},
+		{"title" : "Fear and Loathing in Las Vegas", "author" : "Thompson, Hunter S."},
+		{"title" : "Hell’s Angels", "author" : "Thompson, Hunter S."},
+		{"title" : "Stoner", "author" : "Williams, John"}
+	],
+	"leadershipBooks" : [
+		{"title" : "Meditations", "author" : "Aurelius, Marcus"},
+		{"title" : "The Prince", "author" : "Machiavelli, Niccolo"},
+		{"title" : "A Book of Five Rings", "author" : "Musashi, Miyamoto"},
+		{"title" : "The Art of War", "author" : "Tzu, Sun"},
+
+		{"title" : "Extreme Ownership", "author" : "Willink, Jocko and Babin, Leif"},
+		{"title" : "Can’t Hurt Me", "author" : "Goggins, David"}
+	],
+	"explicitBooks" : [
+		{"title" : "The Rape of Nanking", "author" : "Cheng, Iris"},
+		{"title" : "Empire of the Summer Moon", "author" : "Gwynne, S. C."},
+		{"title" : "Pimp", "author" : "Slim, Iceberg"}
+	]
+}

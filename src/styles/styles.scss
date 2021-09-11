@@ -1,0 +1,196 @@
+@font-face {
+        font-family: "Sora-Bold";
+        src: local("Sora-Bold"),
+        url("./fonts/Sora-Bold.ttf") format("truetype");
+    }
+
+@font-face {
+        font-family: "Sora-ExtraBold";
+        src: local("Sora-ExtraBold"),
+            url("./fonts/Sora-ExtraBold.ttf") format("truetype");
+    }
+
+@font-face {
+    font-family: "Sora-ExtraLight";
+    src: local("Sora-ExtraLight"),
+        url("./fonts/Sora-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Sora-Light";
+    src: local("Sora-Light"),
+        url("./fonts/Sora-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Sora-Medium";
+    src: local("Sora-Medium"),
+        url("./fonts/Sora-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Sora-Regular";
+    src: local("Sora-Regular"),
+        url("./fonts/Sora-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Sora-SemiBold";
+    src: local("Sora-SemiBold"),
+        url("./fonts/Sora-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Sora-Thin";
+    src: local("Sora-Thin"),
+        url("./fonts/Sora-Thin.ttf") format("truetype");
+}
+.title-container {
+    .title {
+        text-align: center;
+        font-family: "Sora-Bold";
+    }
+}
+.description {
+    font-family: "Sora-Regular";
+    text-align: center;
+}
+
+h3 {
+    font-family: "Sora-Bold";
+}
+
+h4 {
+    font-family: "Sora-Bold";
+}
+
+p,a {
+    font-family: "Sora-Regular";
+}
+
+.home-description-container {
+    vertical-align: middle;
+
+}
+
+.home-container {
+    display: flex;
+    align-items: center;
+}
+
+.built-tag {
+    position: fixed;
+    bottom: 0;
+    right: 1rem;
+}
+
+img {
+    &.home-photo {
+        float:left;
+        width: 20%;
+    }
+    &.contact-photo {
+        max-width: 100%;
+        height: auto;
+      }
+}
+
+.navbar {
+    background: #F4A261;
+    a {
+        font-family: "Sora-ExtraBold";
+    }
+    overflow: hidden;
+
+    .home-nav,
+    .aboutme-nav,
+    .contact-nav,
+    .resume-nav {
+        color: #FFFFFF;
+        &.active,
+        &:hover {
+            border-bottom: 5px solid lightgrey;
+          }
+    }
+
+    .home-nav {
+        background: #264653;
+        border-bottom: 5px solid #264653;
+    }
+
+    .aboutme-nav {
+        background: #2A9D8F;
+        border-bottom: 5px solid #2A9D8F;
+    }
+
+    .resume-nav {
+        background: #E9C46A;
+        border-bottom: 5px solid #E9C46A;
+    }
+
+    .contact-nav {
+        background: #F4A261;
+        border-bottom: 5px solid #F4A261;
+    }
+
+    .signin-nav {
+        background: #E76F51;
+    }
+
+    .navitem {
+
+    }
+}
+
+td, tr {
+    padding: 0;
+    p {
+        margin-top: 0.1em;
+        margin-bottom: 0.1em;
+    }
+    .book-author {
+        padding-right: 0.2em;
+    }
+}
+.book-container {
+    padding-left: 4em;
+}
+
+.general-books,
+.leadership-books,
+.explicit-books {
+    h3,
+    .subtitle {
+        padding-left: 2em;
+        padding-right: 2em;
+        margin-bottom: 0.5em;
+    }
+    .subtitle {
+        color: maroon;
+        margin-top: 0;
+        padding-left: 3em;
+    }
+}
+
+.contact-title {
+    text-align: center;
+}
+.contact-email {
+    text-align: center;
+    padding: 1rem;
+}
+
+.resume-container {
+    .react-pdf__Page {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    .react-pdf__Page__canvas {
+        
+        margin: 0 auto;
+        border: lightgrey solid 1px;
+      }
+    .rpv-core__viewer {
+
+    }
+}
