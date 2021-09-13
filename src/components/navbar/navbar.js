@@ -16,7 +16,7 @@ const Navbar = () => {
         <Bars />
   
         <NavMenu>
-        <NavLink className="home-nav" to='/' activeClassName="active">
+        <NavLink className="home-nav" to='/' exact activeClassName="active">
             Home
           </NavLink>
           <NavLink className="aboutme-nav" to='/readinglist' activeClassName="active">

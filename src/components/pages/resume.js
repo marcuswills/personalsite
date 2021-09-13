@@ -1,5 +1,4 @@
 import React from 'react';
-import SinglePagePDF from "../pdf/singlepage";
 import resumePDF from "../pdf/files/ResumeMWills.pdf";
 import PdfWorker from './elements/pdfWorker';
 
