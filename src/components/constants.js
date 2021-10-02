@@ -13,3 +13,5 @@ export const CONTACT_TITLE = "Drop me a line at the email below and I'll get bac
 export const CONTACT_EMAIL = "marcusjonwills@gmail.com"
 
 export const BUILT_TAG="Built using React and hosted on AWS"
+
+export const MOBILE_LOGO="MW"

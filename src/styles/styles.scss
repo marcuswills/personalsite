@@ -51,10 +51,7 @@
         font-family: "Sora-Bold";
     }
 }
-.description {
-    font-family: "Sora-Regular";
-    text-align: center;
-}
+
 
 h3 {
     font-family: "Sora-Bold";
@@ -68,20 +65,44 @@ p,a {
     font-family: "Sora-Regular";
 }
 
-.home-description-container {
-    vertical-align: middle;
-
-}
-
 .home-container {
     display: flex;
     align-items: center;
-}
 
-.built-tag {
-    position: fixed;
-    bottom: 0;
-    right: 1rem;
+    @media only screen and (max-width: 768px) {
+        display: inline-block;
+    }
+
+    .home-description-container {
+        vertical-align: middle;
+        
+        .description {
+            font-family: "Sora-Regular";
+            text-align: center;
+            padding: 1rem;
+        }
+    
+    }
+}
+.footer{
+
+    .links {
+        text-align: center;
+        position: fixed;
+        bottom: 0.25rem;
+        left: 0.5rem;
+    }
+
+    img {
+        height: 2rem;
+        padding-right: 0.5rem;
+    }
+
+    .built-tag {
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+    }
 }
 
 img {
@@ -92,7 +113,19 @@ img {
     &.contact-photo {
         max-width: 100%;
         height: auto;
-      }
+    }
+    &.mobile-photo {
+        display: none;
+    }
+    @media only screen and (max-width: 768px) {
+        &.home-photo {
+            display: none;
+        }
+        &.mobile-photo {
+            display: block;
+            width: 100%;
+        }
+    }
 }
 
 .navbar {
@@ -101,6 +134,23 @@ img {
         font-family: "Sora-ExtraBold";
     }
     overflow: hidden;
+
+    .mobile-nav {
+        display: none;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .mobile-nav {
+            display: block;
+            margin: 0 auto;
+
+            .mobile-logo {
+                    top: 0;
+                    font-family: "Sora-Bold";
+                    font-size: 3rem;
+            }
+        }
+    }
 
     .home-nav,
     .aboutme-nav,
@@ -145,15 +195,19 @@ img {
 td, tr {
     padding: 0;
     p {
-        margin-top: 0.1em;
-        margin-bottom: 0.1em;
+        margin-top: 0.1rem;
+        margin-bottom: 0.1rem;
     }
     .book-author {
-        padding-right: 0.2em;
+        padding-right: 0.2rem;
     }
 }
 .book-container {
-    padding-left: 4em;
+    padding-left: 4rem;
+    @media only screen and (max-width: 768px) {
+        padding-left: 1rem;
+        font-size: 14px;
+    }
 }
 
 .general-books,
@@ -161,14 +215,21 @@ td, tr {
 .explicit-books {
     h3,
     .subtitle {
-        padding-left: 2em;
-        padding-right: 2em;
-        margin-bottom: 0.5em;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-bottom: 0.5rem;
+
+        @media only screen and (max-width: 768px) {
+            padding-left: 1rem;
+        }
     }
     .subtitle {
         color: maroon;
         margin-top: 0;
-        padding-left: 3em;
+        padding-left: 3rem;
+        @media only screen and (max-width: 768px) {
+            padding-left: 1rem;
+        }
     }
 }
 
@@ -182,11 +243,11 @@ td, tr {
 
 .resume-container {
     .react-pdf__Page {
-        padding-top: 2em;
-        padding-bottom: 2em;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
     .react-pdf__Page__canvas {
-        
+
         margin: 0 auto;
         border: lightgrey solid 1px;
       }
