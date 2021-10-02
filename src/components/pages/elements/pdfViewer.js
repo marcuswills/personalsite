@@ -11,7 +11,7 @@ const pdfViewer = ({pdfDir}) => {
     const defaultLayoutPluginInstance = defaultLayoutPlugin();
     return (
         <>
-            <Viewer plugins={[defaultLayoutPluginInstance]} defaultScale={1} fileUrl={pdfDir} />;
+            <Viewer plugins={[defaultLayoutPluginInstance]} defaultScale={1} fileUrl={pdfDir} />
         </>
     )
 };
