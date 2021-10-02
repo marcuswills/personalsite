@@ -13,6 +13,7 @@ background: transparent;
 border: none;
 cursor: pointer;
 padding: 0;
+-webkit-tap-highlight-color: transparent;
 z-index: 101;
 span {
   width: 2rem;
